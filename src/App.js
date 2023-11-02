@@ -1,4 +1,5 @@
 import "./App.css";
+import ClassTitleCounter from "./components/effectExample/ClassTitleCounter";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
 import Main from "./components/effectExample/Main";
 import IndexState from "./components/stateExample/IndexState";
