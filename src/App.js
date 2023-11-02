@@ -1,6 +1,7 @@
 import "./App.css";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
 import HookMouse from "./components/effectExample/HookMouse";
+import IntervalHookCounter from "./components/effectExample/IntervalHookCounter";
 import Main from "./components/effectExample/Main";
 import MouseContainer from "./components/effectExample/MouseContainer";
 import IndexState from "./components/stateExample/IndexState";
@@ -20,6 +21,8 @@ function App() {
       <HookMouse />
       <hr />
       <MouseContainer />
+      <hr />
+      <IntervalHookCounter />
     </div>
   );
 }
