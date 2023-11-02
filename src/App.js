@@ -1,6 +1,8 @@
 import "./App.css";
+import ClassMouse from "./components/effectExample/ClassMouse";
 import ClassTitleCounter from "./components/effectExample/ClassTitleCounter";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
+import HookMouse from "./components/effectExample/HookMouse";
 import Main from "./components/effectExample/Main";
 import IndexState from "./components/stateExample/IndexState";
 
@@ -15,6 +17,8 @@ function App() {
       <hr />
       <Main />
       <EffectCounterOne />
+      <hr />
+      <HookMouse />
     </div>
   );
 }
