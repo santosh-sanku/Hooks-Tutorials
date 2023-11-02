@@ -1,4 +1,5 @@
 import "./App.css";
+import DataFetching from "./components/effectExample/DataFetching";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
 import HookMouse from "./components/effectExample/HookMouse";
 import IntervalHookCounter from "./components/effectExample/IntervalHookCounter";
@@ -23,6 +24,8 @@ function App() {
       <MouseContainer />
       <hr />
       <IntervalHookCounter />
+      <hr />
+      <DataFetching />
     </div>
   );
 }
