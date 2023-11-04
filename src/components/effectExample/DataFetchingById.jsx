@@ -19,10 +19,10 @@ const DataFetchingById = () => {
 
   return (
     <div>
-      <h1>
+      <h2>
         We fetch individual post by passing POST ID to the get request -
         useEffect Hook & axios
-      </h1>
+      </h2>
       <div>
         <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
         <h4>{post.title}</h4>

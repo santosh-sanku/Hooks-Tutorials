@@ -1,6 +1,6 @@
 import "./App.css";
-import DataFetching from "./components/effectExample/DataFetching";
 import DataFetchingById from "./components/effectExample/DataFetchingById";
+import DataFetchingByIdButton from "./components/effectExample/DataFetchingByIdButton";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
 import HookMouse from "./components/effectExample/HookMouse";
 import IntervalHookCounter from "./components/effectExample/IntervalHookCounter";
@@ -27,6 +27,8 @@ function App() {
       <IntervalHookCounter />
       <hr />
       <DataFetchingById />
+      <hr />
+      <DataFetchingByIdButton />
     </div>
   );
 }
