@@ -1,4 +1,5 @@
 import "./App.css";
+import MainContext from "./components/contextExamples/MainContext";
 import DataFetchingById from "./components/effectExample/DataFetchingById";
 import DataFetchingByIdButton from "./components/effectExample/DataFetchingByIdButton";
 import EffectCounterOne from "./components/effectExample/EffectCounterOne";
@@ -29,6 +30,8 @@ function App() {
       <DataFetchingById />
       <hr />
       <DataFetchingByIdButton />
+      <hr />
+      <MainContext />
     </div>
   );
 }
