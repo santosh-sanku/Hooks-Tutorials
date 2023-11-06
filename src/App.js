@@ -7,6 +7,7 @@ import HookMouse from "./components/effectExample/HookMouse";
 import IntervalHookCounter from "./components/effectExample/IntervalHookCounter";
 import Main from "./components/effectExample/Main";
 import MouseContainer from "./components/effectExample/MouseContainer";
+import IntroReducer from "./components/reducerExamples/IntroReducer";
 import IndexState from "./components/stateExample/IndexState";
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
       <DataFetchingByIdButton />
       <hr />
       <MainContext />
+      <hr />
+      <IntroReducer />
     </div>
   );
 }
