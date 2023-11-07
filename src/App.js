@@ -7,6 +7,7 @@ import HookMouse from "./components/effectExample/HookMouse";
 import IntervalHookCounter from "./components/effectExample/IntervalHookCounter";
 import Main from "./components/effectExample/Main";
 import MouseContainer from "./components/effectExample/MouseContainer";
+import CounterOne from "./components/reducerExamples/CounterOne";
 import IntroReducer from "./components/reducerExamples/IntroReducer";
 import IndexState from "./components/stateExample/IndexState";
 
@@ -35,6 +36,8 @@ function App() {
       <MainContext />
       <hr />
       <IntroReducer />
+      <hr />
+      <CounterOne />
     </div>
   );
 }
