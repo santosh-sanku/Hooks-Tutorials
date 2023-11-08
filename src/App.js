@@ -11,6 +11,7 @@ import CounterOne from "./components/reducerExamples/CounterOne";
 import CounterThree from "./components/reducerExamples/CounterThree";
 import CounterTwo from "./components/reducerExamples/CounterTwo";
 import IntroReducer from "./components/reducerExamples/IntroReducer";
+import Index from "./components/reducerExamples/reducerWithContext/Index";
 import IndexState from "./components/stateExample/IndexState";
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
       <CounterTwo />
       <hr />
       <CounterThree />
+      <hr />
+      <Index />
     </div>
   );
 }
