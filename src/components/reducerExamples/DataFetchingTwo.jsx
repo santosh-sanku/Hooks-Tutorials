@@ -76,6 +76,41 @@ const DataFetchingTwo = () => {
           the state transitions grouped together i.e FETCH_SUCCESS.
         </p>
       </div>
+      <div>
+        <h3>useState vs useReducer</h3>
+        <table>
+          <tr>
+            <th>scenario</th>
+            <th>useState</th>
+            <th>useReducer</th>
+          </tr>
+          <tr>
+            <td>Type of state == </td>
+            <td>Number, Strings , Boolean</td>
+            <td>Objects or Arrays</td>
+          </tr>
+          <tr>
+            <td>Number of state tranisitions == </td>
+            <td>one or two</td>
+            <td>too many</td>
+          </tr>
+          <tr>
+            <td>Related state transition == </td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Business Logic == </td>
+            <td>No Business Logic</td>
+            <td>Complex Business Logic</td>
+          </tr>
+          <tr>
+            <td>Local vs Global == </td>
+            <td>Local</td>
+            <td>Global</td>
+          </tr>
+        </table>
+      </div>
     </div>
   );
 };
