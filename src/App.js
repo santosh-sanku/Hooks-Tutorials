@@ -10,6 +10,7 @@ import MouseContainer from "./components/effectExample/MouseContainer";
 import CounterOne from "./components/reducerExamples/CounterOne";
 import CounterThree from "./components/reducerExamples/CounterThree";
 import CounterTwo from "./components/reducerExamples/CounterTwo";
+import DataFetchingOne from "./components/reducerExamples/DataFetchingOne";
 import IntroReducer from "./components/reducerExamples/IntroReducer";
 import Index from "./components/reducerExamples/reducerWithContext/Index";
 import IndexState from "./components/stateExample/IndexState";
@@ -47,6 +48,8 @@ function App() {
       <CounterThree />
       <hr />
       <Index />
+      <hr />
+      <DataFetchingOne />
     </div>
   );
 }
