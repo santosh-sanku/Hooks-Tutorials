@@ -1,4 +1,5 @@
 import "./App.css";
+import ParentComponent from "./components/callBackExamples/ParentComponent";
 import MainContext from "./components/contextExamples/MainContext";
 import DataFetchingById from "./components/effectExample/DataFetchingById";
 import DataFetchingByIdButton from "./components/effectExample/DataFetchingByIdButton";
@@ -53,6 +54,8 @@ function App() {
       <DataFetchingOne />
       <hr />
       <DataFetchingTwo />
+      <hr />
+      <ParentComponent />
     </div>
   );
 }
